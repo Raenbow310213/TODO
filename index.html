@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1 class="title">TODO LIST</h1>
+            <form>
+                <div class="input-task">
+                    <input type="text" id="text" placeholder="Какие у вас планы?" />
+                    <button class="button-task" onclick="addTask()">Добавить</button>
+                </div>
+            </form>
+        </div>
+        <div class="content">
+            <div class="tasks" id="tasks"
+
+></div>
+            <button onclick="removeTasks()" type="submit">ОЧИСТИТЬ</button>
+        </div>
+    </div>
+    
+   <script src="main.js"></script>
+</body>
+</html>
